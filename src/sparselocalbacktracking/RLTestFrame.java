@@ -33,7 +33,7 @@ public class RLTestFrame extends javax.swing.JFrame {
                 1,
                 5,
                 200,
-                5
+                10
         );
 
         java.util.Timer t = new java.util.Timer();
