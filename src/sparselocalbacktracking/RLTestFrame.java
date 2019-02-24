@@ -41,7 +41,7 @@ public class RLTestFrame extends javax.swing.JFrame {
             @Override
             public void run() {
                 if (jToggleButton1.isSelected()) {
-                    for (int k = 0; k < 100; ++k) {
+                    for (int k = 0; k < 1000; ++k) {
                         rLRenderPanel1.domain.act(
                                 agent.act(rLRenderPanel1.domain.getState())
                         );
@@ -53,7 +53,7 @@ public class RLTestFrame extends javax.swing.JFrame {
                         );
                 }
             }
-        }, 10, 10);
+        }, 10, 20);
 
         new Timer(1, new ActionListener() {
             @Override

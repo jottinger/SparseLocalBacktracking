@@ -72,7 +72,7 @@ public class RNN {
 
         for (int i = 0; i < numInputs; ++i) {
             for (int j = 0; j < numNeurons; ++j) {
-                rnn.inputWeights[i][j] += 0.4 * (Math.random() - 0.5);
+                rnn.inputWeights[i][j] += 0.2 * (Math.random() - 0.5);
             }
         }
 
